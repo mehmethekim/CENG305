@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Theater
+comment0.text=\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @since\ 13.04.2021\r\n\ This\ class\ generates\ Theater\ Class\ for\ Question\ 1.\r\n\ @param\ seatsPrices\ Prices\ of\ the\ seats\ are\ preset\ in\ the\ class.\r\n
+comment1.params=
+comment1.target=Theater()
+comment2.params=i\ j
+comment2.target=boolean\ checkAvailabilityOfSeat(int,\ int)
+comment2.text=\r\n\ This\ function\ checks\ the\ availability\ of\ the\ given\ seat.\ If\ the\ seat\ is\ available\ returns\ 1,\ else\ returns\ false.\r\n\ @param\ i\ column\ number\ of\ the\ wanted\ seat\r\n\ @param\ j\ row\ number\ of\ the\ wanted\ seat\r\n\ @return\ returns\ boolean\ if\ the\ seat\ is\ available.\r\n
+comment3.params=i\ j
+comment3.target=void\ reserveSeat(int,\ int)
+comment3.text=\r\n\ This\ function\ reserves\ the\ wanted\ seat.\ First\ it\ checks\ wheter\ the\ given\ seat\ is\ empty\ or\ not.\ If\ it\ empty,\ reserves\ that\ seat\r\n\ and\ changes\ it's\ value\ to\ "0".\r\n@param\ i\ column\ number\ of\ the\ wanted\ seat\r\n\ @param\ j\ row\ number\ of\ the\ wanted\ seat\r\n
+comment4.params=price
+comment4.target=int[]\ findTheFirstAvailablePlaceAccordingToPrice(int)
+comment4.text=\ \r\n\ This\ function\ returns\ the\ coordinates\ of\ the\ seat\ accoridng\ to\ it's\ price.\ It\ finds\ the\ first\ seat\ that\ is\ available\ and\r\n\ has\ the\ price\ that\ is\ wanted\r\n\ @param\ price\ Wanted\ price\ of\ the\ seat.\r\n\ @return\ returns\ the\ coordinates\ of\ the\ wanted\ price\ seat.\r\n
+numComments=5

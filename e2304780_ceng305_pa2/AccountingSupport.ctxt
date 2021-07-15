@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=AccountingSupport
+comment0.text=\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @since\ 13.05.2021\r\n\ \r\n\ This\ Class\ generates\ an\ Account\ for\ profit\ and\ losses\ for\ different\ months.\r\n\ It\ has\ one\ private\ object\ and\ it\ is\ the\ name\ of\ the\ months\ in\ a\ year.\r\n
+comment1.params=
+comment1.target=AccountingSupport()
+comment1.text=\r\n\ This\ is\ the\ constructor\ class\ of\ Accounting\ Support.It\ gives\ the\ name\ of\ the\ months\ to\ the\ private\ object\ monthNames.\r\n
+comment2.params=pNlAmount
+comment2.target=int\ calculateTotalPnL(int[])
+comment2.text=\r\n\ This\ function\ adds\ all\ of\ the\ profits\ and\ losses\ in\ a\ year\ and\ returns\ the\ value.\r\n\ @param1\ integer\ array\ of\ the\ profits\ and\ losses\ for\ each\ month\r\n\ @return\ total\ profit\ or\ loss\ in\ a\ year.\r\n
+comment3.params=pNlAmount
+comment3.target=int\ findMaxProfitMonth(int[])
+comment3.text=\r\n\ This\ function\ returns\ the\ maximum\ profited\ month\ in\ a\ year.\ It\ will\ output\ an\ integer\ for\ that\ month.If\ September\ is\ the\ most\ profited\ \r\n\ month\ it\ will\ give\ output\ as\ "8"(count\ starts\ from\ 0).\r\n\ @param1\ integer\ array\ of\ the\ profits\ and\ losses\ for\ each\ month.\r\n\ @return\ maximum\ profited\ month\ as\ an\ integer.\r\n
+comment4.params=pNlAmount
+comment4.target=int\ findMinProfitMonth(int[])
+comment4.text=\r\n\ This\ function\ returns\ the\ minimum\ profited\ month\ in\ a\ year.\ It\ will\ output\ an\ integer\ for\ that\ month.If\ September\ is\ the\ least\ profited\ \r\n\ month\ it\ will\ give\ output\ as\ "8"(count\ starts\ from\ 0).\r\n\ @param1\ integer\ array\ of\ the\ profits\ and\ losses\ for\ each\ month.\r\n\ @return\ minimum\ profited\ month\ as\ an\ integer.\r\n
+comment5.params=pNlAmount\ maxMonthNo\ minMonthNo
+comment5.target=void\ visualizeProfitLossMonthly(int[],\ int,\ int)
+comment5.text=\r\n\ This\ function\ will\ give\ a\ console\ output\ like\ a\ graph\ for\ months\ and\ profits\ for\ that\ month.\r\n\ @param1\ integer\ array\ of\ the\ profits\ and\ losses\ for\ each\ month.\r\n\ @param2\ maximum\ profited\ month\ number.\r\n\ @param3\ minimum\ profited\ month\ number.\r\n
+comment6.params=target\ pNlAmount
+comment6.target=void\ displayTargetReachedMonths(int,\ int[])
+comment6.text=\r\n\ This\ function\ will\ display\ the\ months\ that\ are\ equeal\ or\ exceeded\ the\ given\ target\ profit.\ It\ will\ give\ month\ names\ as\ a\ console\ output.\r\n\ @param1\ Target\ profit\ value.\ We\ will\ use\ this\ value\ to\ calculate\ if\ given\ months\ exceeded\ this\ value\ or\ not.\r\n\ @param2\ integer\ array\ of\ the\ profits\ and\ losses\ for\ each\ month.\r\n
+numComments=7

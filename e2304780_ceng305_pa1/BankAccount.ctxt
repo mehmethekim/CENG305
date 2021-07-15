@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BankAccount
+comment0.text=\r\n\ This\ class\ generates\ a\ bank\ account.\ Every\ transaction\ from\ the\ account\ is\r\n\ charged\ with\ some\ fee\ value.\ Every\ account\ has\ free\ transaction\ limit\ for\r\n\ every\ month.\ If\ transactions\ value\ exceeds\ this\ value,\ it\ will\ cost\ money\r\n\ to\ the\ account\ owner\ end\ of\ every\ month.\ At\ the\ end\ of\ every\ month,\r\n\ transaction\ and\ free\ transaction\ are\ reseted.\r\n\ @param\ balance\ Money\ balance\ of\ the\ customer\r\n\ @param\ transactions\ Transaction\ that\ customer\ did.\ Deposit\ and\ withdraws\ are\ counted\r\n\ @param\ freeTransactions\ Free\ transaction\ chances\ of\ the\ customer.\ Deposit\ and\ withdraws\ do\ not\ cost\ monet\ if\ customer\ has\ free\ transactions.\r\n\ @param\ transactionFee\ Cost\ of\ the\ transactions.\ At\ the\ end\ of\ every\ month,\ transaction\ fee\ is\ taken\ from\ the\ balance\ of\ the\ customer.\r\n\ \r\n
+comment1.params=free
+comment1.target=BankAccount(int)
+comment1.text=\r\n\ Constructs\ a\ Bank\ Account\ with\ no\ money\ in\ it.\r\n\ @param\ free\ Free\ transaction\ charges\ of\ the\ customer.\r\n
+comment2.params=initialBalance\ free
+comment2.target=BankAccount(double,\ int)
+comment2.text=\r\n\ Constructs\ a\ Bank\ Account\ with\ initial\ balance\ in\ it.\r\n\ @param\ initialBalance\ Initial\ money\ balance\ of\ the\ customer.\r\n\ @param\ free\ Free\ transaction\ charges\ of\ the\ customer.\r\n
+comment3.params=amount
+comment3.target=void\ deposit(double)
+comment3.text=\r\n\ Deposits\ the\ given\ amount\ of\ money\ into\ the\ acount.\ Counts\ as\ transaction.\r\n\ @param\ amount\ Amount\ of\ money\ to\ be\ deposited\ into\ the\ account.\r\n
+comment4.params=amount
+comment4.target=void\ withdraw(double)
+comment4.text=\r\n\ Withdraws\ the\ given\ amount\ of\ money\ into\ the\ acount.\ Counts\ as\ transaction.\r\n\ @param\ amount\ Amount\ of\ money\ to\ be\ withdrawn\ from\ the\ account.\r\n
+comment5.params=
+comment5.target=double\ getBalance()
+comment5.text=\r\n\ Returns\ the\ current\ balance\ of\ the\ acount.\r\n\ @return\ Returns\ the\ current\ balance\ parameter.\r\n
+comment6.params=fee
+comment6.target=void\ setTransactionFee(double)
+comment6.text=\r\n\ Sets\ the\ fee\ for\ transactions.\r\n\ @param\ fee\ Amount\ of\ money\ it\ costs\ to\ do\ transactions.\r\n
+comment7.params=
+comment7.target=void\ deductMonthlyCharge()
+comment7.text=\r\n\ Withdraws\ transaction\ cost\ from\ the\ account\ if\ the\ account\ is\ out\r\n\ of\ free\ transactions\ charges.\ Resets\ the\ transaction\ count\ every\ end\r\n\ of\ the\ month.\r\n
+numComments=8

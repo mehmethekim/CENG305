@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Executive
+comment0.text=\r\n\ Executive\ class\ extends\ to\ Manager.\ Executive\ is\ a\ Manager\ that\ has\ a\ region\ code.\r\n@param\ region_code\ Region\ Code\ of\ the\ Executive.\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @version\ (11/07/2021)\r\n
+comment1.params=name\ salary\ department\ region_code
+comment1.target=Executive(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ class\ for\ Executive.\ Takes\ name,\ salary,\ department,\ region_code\ and\ set\ it\ to\ variables.\r\n\ @param\ name\ Name\ of\ the\ Exective.\r\n\ @param\ salary\ Salary\ of\ the\ Exective.\r\n\ @param\ department\ Department\ of\ the\ Exective.\r\n\ @param\ region_code\ Region\ Code\ of\ the\ Exective.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ This\ function\ prints\ the\ salary,\ name,\ department\ and\ region_code\ of\ the\ Executive.\ Uses\ Manager.toString()\ to\ print\ the\ name,\ salary\ and\ the\ department\ of\ the\ Executive.\r\n\ @return\ Returns\ text\ containing\ salary,\ name,\ department\ and\ region\ code\ of\ the\ Executive.\r\n
+numComments=3

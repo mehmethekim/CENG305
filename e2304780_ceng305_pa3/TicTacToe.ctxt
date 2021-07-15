@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment0.text=\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @since\ 13.06.2021\r\n\ \r\n\ This\ class\ generetas\ a\ tic-tac-toe\ game\ to\ be\ played\ by\ 2\ people\ on\ the\ terminal.\r\n\ \r\n
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TicTacToe\r\n
+comment2.params=
+comment2.target=void\ printBoard()
+comment2.text=\r\n\ This\ function\ displays\ the\ current\ tic-tac-toe\ board\ to\ the\ terminal.\r\n
+comment3.params=
+comment3.target=void\ printAvailableCoordinates()
+comment3.text=\r\n\ This\ function\ prints\ the\ playable\ coordinates\ in\ the\ tic-tac-toe\ game\ currently.\r\n\ \r\n
+comment4.params=
+comment4.target=int\ checkWinDrawn()
+comment4.text=\r\n\ This\ function\ checks\ if\ the\ game\ is\ finished\ or\ not.\ If\ it\ is\ finished,\ displays\ the\ winner\r\n\ @return\ returns\ an\ integer\ to\ indicate\ the\ winner.\r\n
+comment5.params=
+comment5.target=void\ playGame()
+comment5.text=\r\n\ This\ function\ plays\ the\ given\ coordinate\ on\ the\ board.\r\n
+numComments=6

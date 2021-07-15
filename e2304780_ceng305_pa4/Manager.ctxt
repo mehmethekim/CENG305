@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Manager
+comment0.text=\r\n\ Manager\ class\ extends\ to\ Employee.\ Manager\ is\ an\ Employee.\ Managers\ have\ departments.\r\n\ @param\ department\ Department\ of\ the\ Manager.\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @version\ (11/07/2021)\r\n
+comment1.params=name\ salary\ department
+comment1.target=Manager(java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ class\ for\ Manager\ Takes\ name,\ salary,\ department\ and\ set\ it\ to\ variables.\r\n\ @param\ name\ Name\ of\ the\ Manager\ to\ be\ set\ to\ Employee.name\ using\ super.().\r\n\ @param\ salary\ Salary\ of\ the\ Manager\ to\ be\ set\ to\ Employee.salary\ using\ super.().\r\n\ @param\ department\ Department\ of\ the\ Manager.\r\n
+comment2.params=department
+comment2.target=void\ setDepartment(java.lang.String)
+comment2.text=\r\n\ This\ function\ sets\ the\ department\ of\ the\ Manager\ to\ a\ new\ value.\r\n\ @param\ department\ Department\ of\ the\ Manager.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDepartment()
+comment3.text=\r\n\ This\ function\ returns\ the\ department\ of\ the\ Manager.\r\n\ @return\ returns\ the\ department\ of\ the\ Manager.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ This\ function\ prints\ the\ salary,\ name\ and\ department\ of\ the\ Manager.\ Uses\ Employee.toString()\ to\ print\ the\ name\ and\ salary\ of\ the\ Employee.\r\n\ @return\ Returns\ text\ containing\ salary,\ name\ and\ department\ of\ the\ Manager.\r\n
+numComments=5

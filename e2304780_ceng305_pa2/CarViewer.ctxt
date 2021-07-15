@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CarViewer
+comment0.text=\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @since\ 15.05.2021\r\n\ This\ class\ will\ show\ the\ painted\ cars\ on\ the\ screen\r\n
+comment1.params=
+comment1.target=void\ viewCars()
+comment1.text=\r\n\ This\ class\ will\ show\ the\ cars\ on\ the\ screen.\ On\ of\ them\ is\ one\ top\ left\ and\ the\ other\ one\ is\ one\ bottom\ right.\r\n
+comment2.params=
+comment2.target=void\ viewCarsMoving()
+comment2.text=\r\n\ This\ class\ will\ show\ two\ cars\ moving\ on\ the\ screen\ in\ time.\r\n
+numComments=3

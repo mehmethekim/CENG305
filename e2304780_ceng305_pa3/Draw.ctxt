@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Draw
+comment0.text=\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @since\ 13.06.2021\r\n\ This\ is\ the\ Draw\ class\ that\ gets\ list\ of\ readers\ and\ draws\ 2\ people\ that\ win\ the\ lottery.\r\n\ \r\n\ \r\n
+comment1.params=drawID\ correctAnswer
+comment1.target=Draw(java.lang.String,\ java.lang.String)
+comment2.params=name\ TCID\ answer
+comment2.target=void\ addParticipant(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ This\ function\ adds\ the\ name,\ TCID\ and\ answer\ to\ the\ arraylist\ of\ the\ class.\r\n\ @param\ name\ name\ of\ the\ reader\r\n\ @param\ TCID\ Identificaiton\ number\ of\ the\ reader.\r\n\ @param\ answer\ Given\ answer\ of\ the\ reader.\r\n\ \r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ findCorrectAnswerGivers()
+comment3.text=\r\n\ This\ function\ finds\ all\ readers\ that\ give\ correct\ answer\ to\ the\ question\r\n\ @return\ Arraylist\ of\ the\ readers\ parameters.\r\n
+comment4.params=correctAnswerGivers
+comment4.target=java.util.ArrayList\ makeDraw(java.util.ArrayList)
+comment4.text=\r\n\ This\ function\ make\ a\ draw\ randomly\ from\ the\ readers\ who\ give\ correct\ answer.\r\n\ @param\ correctAnswerGivers\ Arraylist\ of\ the\ readers\ who\ give\ the\ correct\ answer.\r\n\ @return\ returns\ the\ list\ of\ 2\ people\ who\ win\ the\ draw\ and\ their\ parameters.\r\n
+comment5.params=winners
+comment5.target=void\ displayWinners(java.util.ArrayList)
+comment5.text=\r\n\ This\ function\ displays\ the\ winners\ name\ and\ TCID\ to\ the\ terminal\r\n\ \r\n
+numComments=6

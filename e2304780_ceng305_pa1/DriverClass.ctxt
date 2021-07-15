@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DriverClass
+comment0.text=\r\n\ Driver\ Class\ evaluates\ and\ tests\ Programming\ Assingment\ 1.\r\n\ It\ takes\ input\ from\ the\ keyboard\ and\ according\ to\ the\ input,\r\n\ it\ evaluates\ the\ given\ problem.\r\n\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @version\ 10.04.2021\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

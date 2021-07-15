@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CashRegister
+comment0.text=\r\n\ This\ class\ is\ used\ for\ recording\ purchase\ history\ and\ for\ calculating\r\n\ tax\ of\ the\ purchase.\ It\ can\ also\ calculate\ change\ that\ would\ be\ given\ from\r\n\ a\ certain\ payment\r\n\ @param\ purchase\ Amount\ of\ money\ customer\ spent\ for\ items\ without\ tax\r\n\ @param\ taxablePurchase\ Amount\ of\ money\ customer\ spent\ for\ items\ with\ tax\r\n\ @param\ taxRate\ Tax\ Rate\ of\ the\ taxable\ items.\r\n\ @param\ payment\ Given\ payment\ of\ the\ customer\ for\ purchased\ items\ and\ tax.\r\n\ \r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n
+comment1.params=rate
+comment1.target=CashRegister(double)
+comment1.text=\r\n\ Constructs\ a\ CashRegister\ with\ no\ money\ in\ it.\r\n\ Initializes\ purchase,\ taxablePurchase\ and\ payment\ to\ "0".\r\n\ @param\ rate\ tax-rate\ of\ the\ taxable\ items.\r\n
+comment2.params=amount
+comment2.target=void\ recordPurchase(double)
+comment2.text=\r\n\ Records\ the\ purchases\ for\ non-taxable\ items\ and\ add\ given\ amount\ to\ \r\n\ total\ record.\r\n\ @param\ amount\ the\ amount\ of\ money\ of\ the\ purchase.\r\n
+comment3.params=amount
+comment3.target=void\ recordTaxablePurchase(double)
+comment3.text=\r\n\ Records\ the\ purchases\ for\ taxable\ items\ add\ given\ amount\ to\ \r\n\ total\ record.\r\n\ @param\ amount\ the\ amount\ of\ money\ of\ the\ purchase.\r\n
+comment4.params=amount
+comment4.target=void\ receivePayment(double)
+comment4.text=\r\n\ Receives\ the\ payment\ from\ the\ customer.\r\n\ @param\ amount\ The\ amount\ of\ money\ received\ for\ payment.\r\n
+comment5.params=
+comment5.target=double\ giveChange()
+comment5.text=\r\n\ Calculates\ the\ change\ to\ give\ the\ customer\ with\ subtracting\ the\ purchased\r\n\ items\ value\ from\ the\ payment.Uses\ getTotalTax()\ function\ to\ get\ total\ tax\r\n\ of\ the\ purchased\ items.\r\n\ @return\ Returns\ the\ calculated\ change\ value\r\n\ \r\n
+comment6.params=
+comment6.target=double\ getTotalTax()
+comment6.text=\r\n\ Calculates\ the\ total\ tax\ value\ using\ tax\ rate\ and\ purchased\ taxable\ items.\r\n\ @return\ Returns\ total\ tax\ money.\r\n
+numComments=7

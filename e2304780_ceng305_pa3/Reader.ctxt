@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Reader
+comment0.text=\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @since\ 13.06.2021\r\n\ This\ class\ generates\ Reader\ class\ and\ it\ stores\ information\ of\ the\ readers\ name,TCID\ and\ answer.\r\n\ \r\n
+comment1.params=name\ TCID\ answer
+comment1.target=Reader(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getname()
+comment3.params=
+comment3.target=java.lang.String\ getTCID()
+comment4.params=
+comment4.target=java.lang.String\ getanswer()
+numComments=5

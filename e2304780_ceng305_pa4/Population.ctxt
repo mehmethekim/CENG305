@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Population
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Population\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Population()
+comment2.params=person
+comment2.target=void\ addPerson(Person)
+comment3.params=
+comment3.target=void\ incraseOrder()
+comment4.params=
+comment4.target=int\ getOrder()
+comment5.params=order
+comment5.target=int\ getPersonByOrder(int)
+comment6.params=
+comment6.target=void\ sortByName()
+comment6.text=public\ Person\ getPersonByName(String\ name)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ return\ person;\r\n}
+numComments=7

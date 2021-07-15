@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\r\n\ This\ is\ the\ driver\ class\ for\ CENG305-Programming\ Assignment\ 3\r\n\ It\ has\ 3\ questions.\r\n\ 1st\ one\ is\ theatre\ reservation\ program.\ We\ can\ reserve\ seats\ according\ the\ seat\ number\ or\ price.\r\n\ 2nd\ one\ is\ tic-tac-toe\ game\ that\ 2\ players\ play.\r\n\ 3rd\ one\ is\ lottery\ of\ a\ newspaper\ company.\ They\ will\ reward\ 2\ of\ their\ customers\ who\ gave\ correct\ answer\ to\ the\ question.\r\n\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @version\ 13.06.2021\r\n\ \r\n
+comment1.params=params
+comment1.target=void\ main(java.lang.String[])
+numComments=2

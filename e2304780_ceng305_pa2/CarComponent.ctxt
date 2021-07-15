@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CarComponent
+comment0.text=\r\nThis\ component\ draws\ two\ car\ shapes.\r\n
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment2.params=x_move\ y_move
+comment2.target=void\ moveCar(int,\ int)
+comment2.text=\r\n\ This\ fucntion\ will\ move\ the\ painted\ cars\ on\ the\ screen\ by\ the\ given\ amount.\r\n\ @param1\ amount\ of\ value\ in\ x\ direction\ to\ be\ moved\ on\ the\ screen.\r\n\ @param2\ amount\ of\ value\ in\ y\ direction\ to\ be\ moved\ on\ the\ screen.\r\n
+numComments=3

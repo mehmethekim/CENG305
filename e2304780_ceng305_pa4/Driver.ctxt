@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\r\n\ This\ is\ the\ Driver\ Class\ for\ CENG305\ PA4\r\n\ Question\ 1\:\ Creates\ Person,Manager,Executive\ and\ Employee\ to\ experiment\ inheritance.\r\n\ Question\ 2\:\ To\ experiment\ with\ interfaces,\ we\ are\ comparing\ Person\ names\ and\ ordering\ a\ list\ lexicographical\ order.\r\n\ Question\ 3\:\ We\ are\ using\ Jframe\ to\ obeserve\ List\ of\ Person's.\r\n\ \r\n\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @version\ (11/07/2021)\r\n
+comment1.params=params
+comment1.target=void\ main(java.lang.String[])
+numComments=2

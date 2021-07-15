@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Employee
+comment0.text=\r\n\ Employee\ class\ extends\ to\ Person\ class.\ Executive\ has\ name\ and\ salary.\ Takes\ name\ parameter\r\n\ from\ Person\ class.Employee\ is\ a\ Person.\r\n\ \r\n\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @version\ (11/07/2021)\r\n\ @param\ salary\ Salary\ of\ the\ Employee.\r\n
+comment1.params=name\ salary
+comment1.target=Employee(java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ class\ for\ Employee.\ Takes\ name\ and\ salary\ and\ set\ it\ to\ variables.\r\n\ @param\ name\ Name\ of\ the\ Employee\ to\ be\ set\ to\ Person.name\ using\ super.().\r\n\ @param\ salary\ Salary\ of\ the\ Employee.\r\n
+comment2.params=salary
+comment2.target=void\ setSalary(int)
+comment2.text=\r\n\ This\ function\ sets\ the\ salary\ of\ the\ Employee\ to\ a\ new\ value.\r\n\ @param\ salary\ Salary\ of\ the\ Employee.\r\n
+comment3.params=
+comment3.target=int\ getSalary()
+comment3.text=\r\n\ This\ function\ returns\ the\ salary\ of\ the\ Employee.\r\n\ @return\ Returns\ the\ salary\ of\ the\ Employee.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ This\ function\ prints\ the\ salary\ and\ name\ of\ Employee.\ Uses\ Person.toString()\ to\ print\ the\ name\ of\ the\ Employee.\r\n\ @return\ Returns\ text\ containing\ name\ and\ salary\ of\ the\ Employee.\r\n
+numComments=5

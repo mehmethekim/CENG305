@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ \r\n\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @version\ (11/07/2021)\r\n\ Person\ class\ generates\ person.\ Person\ has\ a\ name.\r\n\ @param\ name\ Name\ of\ the\ Person.\r\n
+comment1.params=name
+comment1.target=Person(java.lang.String)
+comment1.text=\r\n\ @param\ name\ input\ name\ to\ give\ to\ the\ Person.\r\n\ This\ is\ constructor\ for\ Person\ class.\ It\ sets\ given\ name\ to\ private\ variable\ name.\r\n
+comment2.params=name
+comment2.target=void\ setName(java.lang.String)
+comment2.text=\r\n\ This\ function\ changes\ the\ name\ of\ a\ person\r\n\ @param\ name\ input\ name\ to\ give\ to\ the\ Person.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ This\ function\ gets\ the\ name\ of\ the\ person\ and\ returns\ it.\r\n\ @return\ returns\ name\ of\ the\ person\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ This\ class\ returns\ a\ text\ with\ the\ name\ of\ the\ person\ inside\ of\ it.\r\n\ @return\ returns\ the\ string\ text\ with\ Person.name\ in\ it.\r\n
+comment5.params=otherObject
+comment5.target=int\ compareTo(java.lang.Object)
+comment5.text=\r\n\ This\ function\ uses\ Comparable\ interface\ to\ compare\ the\ name\ of\ the\ given\ input\ person\ and\ \r\n\ name\ of\ the\ function\ caller.\ Returns\ an\ integer\ from\ compareTo()\ class.\r\n\ @return\ returns\ an\ integer\ from\ compareTo()\ function.\ According\ to\ dictionary\ order,\ returns\ positive\ or\ negative\ integer.\r\n\ @param\ otherObject\ Takes\ input\ as\ an\ Object\ and\ we\ are\ typecasting\ it\ into\ a\ Person\ object\ to\ compare\ with\ function\ caller\ Person.\r\n
+numComments=6

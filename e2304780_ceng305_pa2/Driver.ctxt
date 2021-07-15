@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\r\n\ @author\ Mehmet\ Hekimo\u011Flu\r\n\ @since\ 15.05.2021\r\n\ This\ is\ the\ driver\ class\ for\ CENG\ PA2.\ It\ can\ be\ controlled\ with\ number\ inputs\ from\ the\ keyboard.\r\n\ It\ has\ 3\ questions.\ \r\n\ Question\ 1\ \:\ AccountingSupport\ Problem\r\n\ Question\ 2\:\ Best\ 10th\ customer\ in\ the\ store\ problem\r\n\ Question\ 3\ \:\ Two\ moving\ ars\ on\ the\ screen\ problem.\r\n
+comment1.params=params
+comment1.target=void\ main(java.lang.String[])
+numComments=2
